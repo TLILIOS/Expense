@@ -3,22 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		572DD89C2C1D9DF5002EF26E /* ExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD89B2C1D9DF5002EF26E /* ExpenseApp.swift */; };
-		572DD89E2C1D9DF5002EF26E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD89D2C1D9DF5002EF26E /* ContentView.swift */; };
+		572DD89E2C1D9DF5002EF26E /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD89D2C1D9DF5002EF26E /* Rows.swift */; };
 		572DD8A02C1D9DF7002EF26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572DD89F2C1D9DF7002EF26E /* Assets.xcassets */; };
 		572DD8A32C1D9DF7002EF26E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572DD8A22C1D9DF7002EF26E /* Preview Assets.xcassets */; };
+		572DD8AC2C2099A4002EF26E /* UsrDflts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD8AB2C2099A4002EF26E /* UsrDflts.swift */; };
+		572DD8AE2C209FF0002EF26E /* ApStorge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD8AD2C209FF0002EF26E /* ApStorge.swift */; };
+		572DD8B02C20A4F5002EF26E /* Apst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DD8AF2C20A4F5002EF26E /* Apst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		572DD8982C1D9DF5002EF26E /* Expense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		572DD89B2C1D9DF5002EF26E /* ExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseApp.swift; sourceTree = "<group>"; };
-		572DD89D2C1D9DF5002EF26E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		572DD89D2C1D9DF5002EF26E /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
 		572DD89F2C1D9DF7002EF26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572DD8A22C1D9DF7002EF26E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		572DD8AB2C2099A4002EF26E /* UsrDflts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsrDflts.swift; sourceTree = "<group>"; };
+		572DD8AD2C209FF0002EF26E /* ApStorge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApStorge.swift; sourceTree = "<group>"; };
+		572DD8AF2C20A4F5002EF26E /* Apst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				572DD89B2C1D9DF5002EF26E /* ExpenseApp.swift */,
-				572DD89D2C1D9DF5002EF26E /* ContentView.swift */,
+				572DD89D2C1D9DF5002EF26E /* Rows.swift */,
+				572DD8AF2C20A4F5002EF26E /* Apst.swift */,
+				572DD8AB2C2099A4002EF26E /* UsrDflts.swift */,
+				572DD8AD2C209FF0002EF26E /* ApStorge.swift */,
 				572DD89F2C1D9DF7002EF26E /* Assets.xcassets */,
 				572DD8A12C1D9DF7002EF26E /* Preview Content */,
 			);
@@ -103,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = 572DD8932C1D9DF5002EF26E /* Build configuration list for PBXProject "Expense" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572DD89E2C1D9DF5002EF26E /* ContentView.swift in Sources */,
+				572DD89E2C1D9DF5002EF26E /* Rows.swift in Sources */,
+				572DD8AE2C209FF0002EF26E /* ApStorge.swift in Sources */,
+				572DD8B02C20A4F5002EF26E /* Apst.swift in Sources */,
 				572DD89C2C1D9DF5002EF26E /* ExpenseApp.swift in Sources */,
+				572DD8AC2C2099A4002EF26E /* UsrDflts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
